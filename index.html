@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="background-img">
+            <img src="Fingerprints.JPEG" alt="Fingerprints Image" id="bg-img">
+            <div class="logo-text">
+                <h1>IDENTIFY YOURSELF</h1>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="information">
+                <b>This is not a real online service! You know you need something <br>
+                like this in your life to help you realize your deepest dreams. <br>
+                Sign-up <em>now</em> to get started.
+                <br>
+                <br>
+                You <em>know</em> you want to.</b>
+            </div>
+
+            <div class="filling-section">
+                <form action="#">
+                    
+                        <legend><b>Let's do this!</b></legend>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="fname"><b>FIRST NAME</b></label>
+                                <input type="text" min="3" value="Thor" max="30" name="firstname" id="fname" required>
+                            </div>
+        
+                            <div class="input-group">
+                                <label for="lname"><b>LAST NAME</b></label> 
+                                <input type="text" min="3" value="Odinson" max="30" name="lastname" id="lname" required>
+                            </div>
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="email"><b>EMAIL</b></label>
+                                <input type="email" max="120" name="email" required>
+                            </div>
+                        
+                            <div class="input-group">
+                                <label for="phone"><b>PHONE NUMBER</b></label>
+                                <input type="text" min="11" max="11" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="password"><b>PASSWORD</b></label>
+                                <input type="password" min="8" max="16" name="password" required>
+                            </div>
+                        
+                            <div class="input-group">
+                                <label for="password"><b>CONFIRM PASSWORD</b></label>
+                                <input type="password" min="8" max="16" name="password" required>
+                            </div>
+                        </div>
+                </form>
+            </div>
+
+            <div class="account-setting">
+                <button>Create Account</button> <br> <br>
+                <p class="login">Already have an account? <span>Log In</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

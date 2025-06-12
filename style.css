@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-container {
+    display: flex;
+    height: auto;
+}
+
+.background-img {
+    width: 36%;
+    overflow: hidden;
+}
+
+#bg-img {
+    height: 100vh;
+    width: 100%;
+    min-width: 2rem;
+    object-fit: cover;
+    display: block;
+}
+
+.logo-text {
+    position: absolute;
+    top: 15%;
+    background-color: #f5f6f7;
+    width: 36%;
+}
+
+.logo-text > h1 {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.form-section {
+    padding-top: min(7em, 10%);
+    background-color: #f5f6f7;
+    width: 64%;
+}
+
+.information {
+   padding-left: min(4em, 7%);
+   padding-bottom: min(3em, 5%);
+   font-size: 1.1rem;
+}
+
+.filling-section {
+    padding-top: min(1em, 7%);
+    padding-left: min(4em, 7%);
+    background-color: white;
+    box-shadow: 0.5px 1px 0.5px 0.2px black;
+    height: 38%;
+}
+
+legend {
+    font-size: 1.1rem;
+    margin-bottom: 1.1em ;
+}
+
+label {
+    font-size: 0.7rem;
+    display: block;
+}
+
+input {
+    border-radius: 5px;
+    width: 65%;
+    height: 2em;
+}
+
+.input-group {
+    flex: 1;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+.account-setting {
+    padding-top: min(2em, 10%);
+    padding-left: min(4em, 7%);
+}
+
+button {
+    width: 22%;
+    padding: 11px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+
+span {
+    color: gray;
+}
+
+.login {
+    font-size: 0.9rem;
+}
